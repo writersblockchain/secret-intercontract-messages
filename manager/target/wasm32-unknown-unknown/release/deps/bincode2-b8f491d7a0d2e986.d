@@ -1,0 +1,13 @@
+/contract/target/wasm32-unknown-unknown/release/deps/bincode2-b8f491d7a0d2e986.rmeta: /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/lib.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/config.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/mod.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/read.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/error.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/internal.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/ser/mod.rs
+
+/contract/target/wasm32-unknown-unknown/release/deps/libbincode2-b8f491d7a0d2e986.rlib: /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/lib.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/config.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/mod.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/read.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/error.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/internal.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/ser/mod.rs
+
+/contract/target/wasm32-unknown-unknown/release/deps/bincode2-b8f491d7a0d2e986.d: /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/lib.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/config.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/mod.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/read.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/error.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/internal.rs /usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/ser/mod.rs
+
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/lib.rs:
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/config.rs:
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/mod.rs:
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/de/read.rs:
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/error.rs:
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/internal.rs:
+/usr/local/cargo/registry/src/github.com-1ecc6299db9ec823/bincode2-2.0.1/src/ser/mod.rs:
