@@ -7,5 +7,5 @@ pub struct InstantiateMsg {}
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
 #[serde(rename_all = "snake_case")]
 pub enum ExecuteMsg {
-    Increment { contract: String, code_hash: String },
+    IncrementCounter { contract: String, code_hash: String },
 }

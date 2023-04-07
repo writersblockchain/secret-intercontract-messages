@@ -7,12 +7,12 @@ const wallet = new Wallet(
 
 const contract_wasm = fs.readFileSync("../contract1.wasm.gz");
 
-let codeId = 20592;
+let codeId = 20633;
 
 let contractCodeHash =
-  "b8399e3357d910bbaa778622536a485f1dec011158cd37588f3e4ae9ab63ee3a";
+  "d4c3726d0d7e6d8e8ab87e28e895455a098492251da5411d99e1bb07a88b5c5c";
 
-let contractAddress = "secret1kpv03a6r0dwf80rwm9qdxpkn3eydyulpcgfsuv";
+let contractAddress = "secret12kqwkp4uxp7858fsspqpda3dd3ra08d72nn2u4";
 
 const secretjs = new SecretNetworkClient({
   chainId: "pulsar-2",
@@ -81,7 +81,7 @@ let increase_count = async () => {
       sender: wallet.address,
       contract_address: contractAddress,
       msg: {
-        increment: {
+        increment_counter: {
           contract: "secret1edd6prk0w55c27dkcxzuau8mvlwa2rghgwelqk",
           code_hash:
             "cf6c359e936ded4e18716aafdef4d880cc42e4d87c29ca88205ff38c1ddf6531",
