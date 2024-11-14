@@ -5,18 +5,18 @@ const wallet = new Wallet(
   "shed clerk spray velvet flower tide cherry idea public solar prize tackle"
 );
 
-const contract_wasm = fs.readFileSync("../contract1.wasm.gz");
+const contract_wasm = fs.readFileSync("../optimized-wasm/secret_contract_example.wasm.gz");
 
-let codeId = 20633;
+let codeId = 12167;
 
 let contractCodeHash =
-  "d4c3726d0d7e6d8e8ab87e28e895455a098492251da5411d99e1bb07a88b5c5c";
+  "0026a1d35b1cadbc47c91f7427f06a99cc7c9d0f54b371fb1106354c86d12c31";
 
-let contractAddress = "secret12kqwkp4uxp7858fsspqpda3dd3ra08d72nn2u4";
+let contractAddress = "secret1gta402kcjrxl8jwy6c3yntwglc4rh5z5dw238k";
 
 const secretjs = new SecretNetworkClient({
-  chainId: "pulsar-2",
-  url: "https://api.pulsar.scrttestnet.com",
+  chainId: "pulsar-3",
+  url: "https://lcd.testnet.secretsaturn.net",
   wallet: wallet,
   walletAddress: wallet.address,
 });
@@ -82,9 +82,9 @@ let increase_count = async () => {
       contract_address: contractAddress,
       msg: {
         increment_counter: {
-          contract: "secret1edd6prk0w55c27dkcxzuau8mvlwa2rghgwelqk",
+          contract: "secret1r72hknqxzctrvg8lxx4ewdz6cg06w047yzr7ua",
           code_hash:
-            "cf6c359e936ded4e18716aafdef4d880cc42e4d87c29ca88205ff38c1ddf6531",
+            "335855599c7c67d85f8db4450b4753bb69c51d7848998f46fd06f327d04bd03d",
         },
       },
       code_hash: contractCodeHash,

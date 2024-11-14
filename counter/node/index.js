@@ -5,17 +5,17 @@ const wallet = new Wallet(
   "shed clerk spray velvet flower tide cherry idea public solar prize tackle"
 );
 
-// const contract_wasm = fs.readFileSync("../contract.wasm.gz");
+const contract_wasm = fs.readFileSync("../optimized-wasm/secret_contract_example.wasm.gz");
 
-let codeId = 20552;
+let codeId = 12166;
 let contractCodeHash =
-  "cf6c359e936ded4e18716aafdef4d880cc42e4d87c29ca88205ff38c1ddf6531";
+  "335855599c7c67d85f8db4450b4753bb69c51d7848998f46fd06f327d04bd03d";
 
-let contractAddress = "secret1edd6prk0w55c27dkcxzuau8mvlwa2rghgwelqk";
+let contractAddress = "secret1r72hknqxzctrvg8lxx4ewdz6cg06w047yzr7ua";
 
 const secretjs = new SecretNetworkClient({
-  chainId: "pulsar-2",
-  url: "https://api.pulsar.scrttestnet.com",
+  chainId: "pulsar-3",
+  url: "https://lcd.testnet.secretsaturn.net",
   wallet: wallet,
   walletAddress: wallet.address,
 });
